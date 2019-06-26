@@ -5,7 +5,7 @@ using namespace std;
 using namespace cv;
 
 int main(int arc, char**argv) {
-	VideoCapture cap("C:/Users/leenak0/Desktop/ConsoleApplication1/1.mp4");
+	VideoCapture cap("***Video Path***");
 	Mat frame;
 
 	if (!cap.isOpened()) {
